@@ -201,7 +201,3 @@ These occur when trying to create users that already exist in Stytch. This is ex
 
 Verify that the export file contains both organizations and members. Run the export script again if needed.
 
-## License
-
-ISC
-
