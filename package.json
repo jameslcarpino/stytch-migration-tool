@@ -1,0 +1,25 @@
+{
+  "name": "stytch-test",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "stytch.js",
+  "scripts": {
+    "start": "node stytch.js",
+    "export-b2b": "tsx export-b2b-stytch.ts",
+    "export-search-api": "node search-API-exporter.js",
+    "export-b2bclient-js": "node b2bclient-exporter.js",
+    "import-to-workos": "cd \"workos scripts\" && npx tsx import-user-membership.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@workos-inc/node": "^7.72.1",
+    "stytch": "^11.11.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  }
+}
